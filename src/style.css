@@ -1,0 +1,78 @@
+body {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+#Landing {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Landing p {
+  font-size: 24px;
+  margin-bottom: 2em;
+}
+
+#Landing .btn {
+  width: 160px;
+  margin-bottom: 0.8rem;
+}
+
+#Activity {
+  background-color: white;
+}
+
+.dash-select {
+  font-size: 14px;
+}
+
+#Chart {
+  background-color: lightslategray;
+  width: 100%;
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.session-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid lightgray;
+  line-height: 1;
+  padding-top: 8px;
+}
+
+#Record-Stats {
+  background-color: lightgray;
+  padding: 30px 20px 5px;
+}
+
+#Timer {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
