@@ -153,7 +153,7 @@ function Dashboard() {
         </ul>
       </div>
       <div id="Start" className="fixed-bottom d-grid">
-        <div className="collapse btn-group-vertical" id="sessionStyles">
+        <div className="collapse btn-group-vertical bg-light" id="sessionStyles">
           <NavLink
             to="/session/bouldering"
             className="btn btn-outline-secondary"
